@@ -15,5 +15,6 @@ categories = [
 ]
 
 people = categories.map { |c| WikiData::Category.new( "Category:#{c}", 'en').member_titles }.reduce(:|)
+pt_names = WikiData::Category.new('Categoria:Políticos de Angola', 'pt').member_titles
 
-EveryPolitician::Wikidata.scrape_wikidata(names: { en: people })
+EveryPolitician::Wikidata.scrape_wikidata(names: { en: people, pt: pt_names })
