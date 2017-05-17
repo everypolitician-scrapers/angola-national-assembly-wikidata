@@ -3,6 +3,7 @@ require 'pry'
 
 categories = [
   'Members_of_the_National_Assembly_(Angola)',
+  'Presidents of the National Assembly (Angola)',
   'Government_ministers_of_Angola',
   'Defence_ministers_of_Angola',
   'Finance_ministers_of_Angola',
